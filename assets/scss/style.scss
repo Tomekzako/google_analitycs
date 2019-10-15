@@ -143,15 +143,15 @@ body {
   z-index: 10;
   &_heading {
     font-weight: 600;
-    font-size: 105px;
+    font-size: 95px;
     line-height: 1.05;
     color: rgb(254, 36, 1);
     font-family: "Source Sans Pro";
     @media only screen and (max-width: 1499px) {
-      font-size: 85px;
+      font-size: 75px;
     }
     @media only screen and (max-width: 1199px) {
-      font-size: 70px;
+      font-size: 60px;
     }
     @media only screen and (max-width: 969px) {
       font-size: 48px;
