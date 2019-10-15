@@ -203,7 +203,7 @@ body {
 .form {
   display: flex;
   position: relative; }
-  @media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: 969px) {
     .form {
       flex-direction: column; } }
   .form_input {
