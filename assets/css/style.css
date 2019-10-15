@@ -79,7 +79,7 @@ body {
   width: 100%;
   overflow: hidden;
   -webkit-tap-highlight-color: transparent;
-  background: #000;
+  background: #0b0a0a;
   color: #fff; }
 
 .container {
@@ -128,7 +128,7 @@ body {
     font-weight: 600;
     font-size: 85px;
     line-height: 1.05;
-    color: #fe2401;
+    color: #587bff;
     font-family: "Source Sans Pro"; }
     @media only screen and (max-width: 1499px) {
       .main_heading {
@@ -254,7 +254,7 @@ body {
   .form_btn {
     width: 200px;
     font-family: "Source Sans Pro";
-    background-color: #fe2401;
+    background-color: #587bff;
     font-size: 20px;
     font-weight: 600;
     margin-left: 16px;
@@ -263,7 +263,7 @@ body {
     transition: all 500ms ease;
     padding: 15px 12px;
     border-radius: 2px;
-    border: 1px solid #fe2401;
+    border: 1px solid #587bff;
     outline: 0px; }
     .form_btn:hover {
       background-color: transparent; }
@@ -290,7 +290,7 @@ body {
     text-align: center; } }
 
 .footer_copyrights {
-  color: #cccccc;
+  color: #2f2f2f;
   display: inline-block;
   letter-spacing: 2px;
   font-weight: 600;
