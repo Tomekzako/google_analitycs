@@ -103,8 +103,8 @@ body {
   padding-left: calc(16.6667vw);
   padding-right: calc(16.6667vw);
   flex-direction: column;
-  padding-top: calc(10vh);
-  padding-bottom: calc(5vh);
+  padding-top: 30px;
+  padding-bottom: 30px;
   z-index: 2;
   @media only screen and (max-width: 1199px) {
     padding-left: 80px;
@@ -326,7 +326,7 @@ body {
     display: inline-block;
     letter-spacing: 2px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     @media only screen and (max-width: 799px) {
       font-size: 14px;
