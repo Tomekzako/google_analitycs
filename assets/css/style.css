@@ -108,15 +108,15 @@ body {
       padding: 20px; } }
 
 .nav_clock {
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 5.7px; }
   @media only screen and (max-width: 969px) {
     .nav_clock {
-      font-size: 20px;
+      font-size: 18px;
       text-align: center; } }
   @media only screen and (max-width: 799px) {
     .nav_clock {
-      font-size: 18px; } }
+      font-size: 16px; } }
   @media only screen and (max-width: 480px) {
     .nav_clock {
       font-size: 14px; } }

@@ -123,14 +123,14 @@ body {
 
 .nav {
   &_clock {
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 5.7px;
     @media only screen and (max-width: 969px) {
-      font-size: 20px;
+      font-size: 18px;
       text-align: center;
     }
     @media only screen and (max-width: 799px) {
-      font-size: 18px;
+      font-size: 16px;
     }
     @media only screen and (max-width: 480px) {
       font-size: 14px;
