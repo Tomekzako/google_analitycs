@@ -126,16 +126,16 @@ body {
   z-index: 10; }
   .main_heading {
     font-weight: 600;
-    font-size: 95px;
+    font-size: 85px;
     line-height: 1.05;
     color: #fe2401;
     font-family: "Source Sans Pro"; }
     @media only screen and (max-width: 1499px) {
       .main_heading {
-        font-size: 75px; } }
+        font-size: 70px; } }
     @media only screen and (max-width: 1199px) {
       .main_heading {
-        font-size: 60px; } }
+        font-size: 55px; } }
     @media only screen and (max-width: 969px) {
       .main_heading {
         font-size: 48px;
@@ -147,7 +147,7 @@ body {
       .main_heading {
         font-size: 34px; } }
   .main_notification {
-    padding-top: 60px;
+    padding-top: 50px;
     display: flex;
     align-items: flex-end; }
     @media only screen and (max-width: 1199px) {
@@ -183,19 +183,19 @@ body {
         width: 100%; } }
   .main_subheading {
     margin-bottom: 32px;
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 600;
     line-height: 1.1; }
     @media only screen and (max-width: 1199px) {
       .main_subheading {
-        font-size: 38px; } }
+        font-size: 36px; } }
     @media only screen and (max-width: 969px) {
       .main_subheading {
-        font-size: 34px;
+        font-size: 32px;
         text-align: center; } }
     @media only screen and (max-width: 799px) {
       .main_subheading {
-        font-size: 26px; } }
+        font-size: 24px; } }
     @media only screen and (max-width: 480px) {
       .main_subheading {
         font-size: 20px; } }
