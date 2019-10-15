@@ -99,7 +99,7 @@ body {
       padding-right: 80px; } }
   @media only screen and (max-width: 969px) {
     .container {
-      padding: 30px 50px; } }
+      padding: 30px 50px 30px 80px; } }
   @media only screen and (max-width: 799px) {
     .container {
       padding: 30px; } }
@@ -112,11 +112,11 @@ body {
   letter-spacing: 5.7px; }
   @media only screen and (max-width: 969px) {
     .nav_clock {
-      font-size: 18px;
-      text-align: center; } }
+      font-size: 18px; } }
   @media only screen and (max-width: 799px) {
     .nav_clock {
-      font-size: 16px; } }
+      font-size: 16px;
+      text-align: center; } }
   @media only screen and (max-width: 480px) {
     .nav_clock {
       font-size: 14px; } }
@@ -138,11 +138,11 @@ body {
         font-size: 55px; } }
     @media only screen and (max-width: 969px) {
       .main_heading {
-        font-size: 48px;
-        text-align: center; } }
+        font-size: 48px; } }
     @media only screen and (max-width: 799px) {
       .main_heading {
-        font-size: 42px; } }
+        font-size: 42px;
+        text-align: center; } }
     @media only screen and (max-width: 480px) {
       .main_heading {
         font-size: 34px; } }
@@ -155,7 +155,7 @@ body {
         flex-direction: column-reverse;
         align-items: flex-start;
         padding-top: 40px; } }
-    @media only screen and (max-width: 969px) {
+    @media only screen and (max-width: 799px) {
       .main_notification {
         align-items: center; } }
     @media only screen and (max-width: 480px) {
@@ -191,11 +191,11 @@ body {
         font-size: 32px; } }
     @media only screen and (max-width: 969px) {
       .main_subheading {
-        font-size: 28px;
-        text-align: center; } }
+        font-size: 28px; } }
     @media only screen and (max-width: 799px) {
       .main_subheading {
-        font-size: 24px; } }
+        font-size: 24px;
+        text-align: center; } }
     @media only screen and (max-width: 480px) {
       .main_subheading {
         font-size: 20px; } }
@@ -203,7 +203,7 @@ body {
 .form {
   display: flex;
   position: relative; }
-  @media only screen and (max-width: 969px) {
+  @media only screen and (max-width: 799px) {
     .form {
       flex-direction: column; } }
   .form_input {
@@ -220,16 +220,15 @@ body {
     background: #000; }
     @media only screen and (max-width: 969px) {
       .form_input {
+        font-size: 16px; } }
+    @media only screen and (max-width: 799px) {
+      .form_input {
         display: block;
         margin: 0 auto;
         min-width: auto;
-        width: 85%;
+        width: 75%;
         padding: 15px 25px;
-        font-size: 16px;
         background: #353535; } }
-    @media only screen and (max-width: 799px) {
-      .form_input {
-        width: 75%; } }
     @media only screen and (max-width: 480px) {
       .form_input {
         font-size: 14px;
@@ -267,19 +266,15 @@ body {
     outline: 0px; }
     .form_btn:hover {
       background-color: transparent; }
-    @media only screen and (max-width: 1199px) {
-      .form_btn {
-        margin-left: 0;
-        margin-top: 15px; } }
     @media only screen and (max-width: 969px) {
       .form_btn {
-        margin: 15px auto 0;
-        display: block;
-        width: 85%;
         font-size: 16px; } }
     @media only screen and (max-width: 799px) {
       .form_btn {
-        width: 75%; } }
+        margin: 15px auto 0;
+        display: block;
+        width: 75%;
+        font-size: 16px; } }
     @media only screen and (max-width: 480px) {
       .form_btn {
         font-size: 14px;

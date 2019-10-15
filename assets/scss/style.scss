@@ -111,7 +111,7 @@ body {
     padding-right: 80px;
   }
   @media only screen and (max-width: 969px) {
-    padding: 30px 50px;
+    padding: 30px 50px 30px 80px;
   }
   @media only screen and (max-width: 799px) {
     padding: 30px;
@@ -127,10 +127,10 @@ body {
     letter-spacing: 5.7px;
     @media only screen and (max-width: 969px) {
       font-size: 18px;
-      text-align: center;
     }
     @media only screen and (max-width: 799px) {
       font-size: 16px;
+      text-align: center;
     }
     @media only screen and (max-width: 480px) {
       font-size: 14px;
@@ -155,10 +155,10 @@ body {
     }
     @media only screen and (max-width: 969px) {
       font-size: 48px;
-      text-align: center;
     }
     @media only screen and (max-width: 799px) {
       font-size: 42px;
+      text-align: center;
     }
     @media only screen and (max-width: 480px) {
       font-size: 34px;
@@ -173,7 +173,7 @@ body {
       align-items: flex-start;
       padding-top: 40px;
     }
-    @media only screen and (max-width: 969px) {
+    @media only screen and (max-width: 799px) {
       align-items: center;
     }
     @media only screen and (max-width: 480px) {
@@ -213,10 +213,10 @@ body {
     }
     @media only screen and (max-width: 969px) {
       font-size: 28px;
-      text-align: center;
     }
     @media only screen and (max-width: 799px) {
       font-size: 24px;
+      text-align: center;
     }
     @media only screen and (max-width: 480px) {
       font-size: 20px;
@@ -226,7 +226,7 @@ body {
 .form {
   display: flex;
   position: relative;
-  @media only screen and (max-width: 969px) {
+  @media only screen and (max-width: 799px) {
     flex-direction: column;
   }
   &_input {
@@ -242,16 +242,15 @@ body {
     outline: 0px;
     background: #000;
     @media only screen and (max-width: 969px) {
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 799px) {
       display: block;
       margin: 0 auto;
       min-width: auto;
-      width: 85%;
-      padding: 15px 25px;
-      font-size: 16px;
-      background: #353535;
-    }
-    @media only screen and (max-width: 799px) {
       width: 75%;
+      padding: 15px 25px;
+      background: #353535;
     }
     @media only screen and (max-width: 480px) {
       font-size: 14px;
@@ -296,18 +295,14 @@ body {
     &:hover {
       background-color: transparent;
     }
-    @media only screen and (max-width: 1199px) {
-      margin-left: 0;
-      margin-top: 15px;
-    }
     @media only screen and (max-width: 969px) {
-      margin: 15px auto 0;
-      display: block;
-      width: 85%;
       font-size: 16px;
     }
     @media only screen and (max-width: 799px) {
+      margin: 15px auto 0;
+      display: block;
       width: 75%;
+      font-size: 16px;
     }
     @media only screen and (max-width: 480px) {
       font-size: 14px;
