@@ -16,12 +16,4 @@ window.addEventListener("DOMContentLoaded", event => {
     }
     return i;
   }
-
-  // var btn = document.querySelector(".form_btn");
-
-  // btn.addEventListener("click", function() {
-  //   document.querySelector(".main_heading").classList.add("heading_blue");
-  //   document.querySelector(".main_heading").innerHTML =
-  //     "Dziękuję! <br> Obserwuj mnie <br> też na <a href='https://twitter.com/lewwwin' target='_blank'>@lewwwin</a>";
-  // });
 });
