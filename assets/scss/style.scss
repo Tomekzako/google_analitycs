@@ -212,7 +212,7 @@ body {
         font-weight: 600 !important;
         pointer-events: none !important;
         transform: translate3d(25px, -50%, 0px) !important;
-        top: 0px !important;
+        top: -7px !important;
         font-size: 12px !important;
         color: rgb(204, 204, 204) !important;
         transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s,
@@ -250,18 +250,6 @@ body {
       border-bottom: 1px solid #fff;
     }
     &::-webkit-input-placeholder {
-      color: #fff;
-    }
-    &:-webkit-autofill,
-    &:-webkit-autofill:hover,
-    &:-webkit-autofill:focus,
-    textarea:-webkit-autofill,
-    textarea:-webkit-autofill:hover,
-    textarea:-webkit-autofill:focus,
-    select:-webkit-autofill,
-    select:-webkit-autofill:hover,
-    select:-webkit-autofill:focus {
-      -webkit-box-shadow: 0 0 0px 1000px #0b0a0a inset;
       color: #fff;
     }
   }

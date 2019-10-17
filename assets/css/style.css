@@ -202,7 +202,7 @@ body {
         font-weight: 600 !important;
         pointer-events: none !important;
         transform: translate3d(25px, -50%, 0px) !important;
-        top: 0px !important;
+        top: -7px !important;
         font-size: 12px !important;
         color: #cccccc !important;
         transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s, top 250ms ease 0s, font-size 250ms ease 0s !important; }
@@ -226,15 +226,6 @@ body {
       outline: none;
       border-bottom: 1px solid #fff; }
     .form_input::-webkit-input-placeholder {
-      color: #fff; }
-    .form_input:-webkit-autofill, .form_input:-webkit-autofill:hover, .form_input:-webkit-autofill:focus,
-    .form_input textarea:-webkit-autofill,
-    .form_input textarea:-webkit-autofill:hover,
-    .form_input textarea:-webkit-autofill:focus,
-    .form_input select:-webkit-autofill,
-    .form_input select:-webkit-autofill:hover,
-    .form_input select:-webkit-autofill:focus {
-      -webkit-box-shadow: 0 0 0px 1000px #0b0a0a inset;
       color: #fff; }
   .form_btn {
     width: 200px;
