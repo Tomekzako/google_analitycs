@@ -77,6 +77,9 @@ body {
 .main {
   padding: 25px 0;
   z-index: 10;
+  @media only screen and (max-width: 799px) {
+    padding: 15px 0;
+  }
   &_heading {
     font-weight: 700;
     font-size: 95px;
@@ -133,7 +136,7 @@ body {
         margin-top: 20px;
       }
       @media only screen and (max-width: 799px) {
-        margin-top: 15px;
+        margin-top: 0;
       }
     }
   }
@@ -256,7 +259,7 @@ body {
 }
 
 .footer {
-  @media only screen and (max-width: 969px) {
+  @media only screen and (max-width: 799px) {
     text-align: center;
   }
   &_copyrights {

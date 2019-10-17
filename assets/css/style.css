@@ -69,6 +69,9 @@ body {
 .main {
   padding: 25px 0;
   z-index: 10; }
+  @media only screen and (max-width: 799px) {
+    .main {
+      padding: 15px 0; } }
   .main_heading {
     font-weight: 700;
     font-size: 95px;
@@ -121,7 +124,7 @@ body {
         margin-top: 20px; } }
     @media only screen and (max-width: 799px) {
       .main_notification-svg {
-        margin-top: 15px; } }
+        margin-top: 0; } }
   .main_email {
     margin-left: auto;
     max-width: 630px; }
@@ -230,7 +233,7 @@ body {
         font-size: 14px;
         width: 100%; } }
 
-@media only screen and (max-width: 969px) {
+@media only screen and (max-width: 799px) {
   .footer {
     text-align: center; } }
 
