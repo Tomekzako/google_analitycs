@@ -252,8 +252,17 @@ body {
     &::-webkit-input-placeholder {
       color: #fff;
     }
-    &::-internal-autofill-selected {
-      background: green;
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0px 1000px #0b0a0a inset;
+      color: #fff;
     }
   }
   &_btn {

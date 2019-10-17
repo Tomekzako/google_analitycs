@@ -227,8 +227,15 @@ body {
       border-bottom: 1px solid #fff; }
     .form_input::-webkit-input-placeholder {
       color: #fff; }
-    .form_input::-internal-autofill-selected {
-      background: green; }
+    .form_input:-webkit-autofill, .form_input:-webkit-autofill:hover, .form_input:-webkit-autofill:focus,
+    .form_input textarea:-webkit-autofill,
+    .form_input textarea:-webkit-autofill:hover,
+    .form_input textarea:-webkit-autofill:focus,
+    .form_input select:-webkit-autofill,
+    .form_input select:-webkit-autofill:hover,
+    .form_input select:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0px 1000px #0b0a0a inset;
+      color: #fff; }
   .form_btn {
     width: 200px;
     font-family: "Source Sans Pro";
