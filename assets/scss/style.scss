@@ -178,6 +178,47 @@ body {
     flex-direction: column;
   }
   &_input {
+    &-box {
+      -webkit-box-flex: 1;
+      position: relative;
+      flex-grow: 1;
+      flex-shrink: 1;
+      display: flex;
+      &::before {
+        content: attr(data-placeholder);
+        transform: translate3d(25px, -50%, 0px);
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        pointer-events: none;
+        transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s,
+          top 250ms ease 0s, font-size 250ms ease 0s;
+      }
+    }
+    &-active {
+      -webkit-box-flex: 1;
+      position: relative;
+      flex-grow: 1;
+      flex-shrink: 1;
+      display: flex;
+      &::before {
+        content: attr(data-placeholder) !important;
+        position: absolute !important;
+        left: 0px !important;
+        display: block !important;
+        font-weight: 600 !important;
+        pointer-events: none !important;
+        transform: translate3d(25px, -50%, 0px) !important;
+        top: 0px !important;
+        font-size: 12px !important;
+        color: rgb(204, 204, 204) !important;
+        transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s,
+          top 250ms ease 0s, font-size 250ms ease 0s !important;
+      }
+    }
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -211,19 +252,9 @@ body {
     &::-webkit-input-placeholder {
       color: #fff;
     }
-  }
-  &_label {
-    font-size: 16px;
-    margin-left: 5px;
-    position: absolute;
-    top: -10px;
-    color: rgb(204, 204, 204);
-    transition: all 0.3s;
-  }
-  &_input:placeholder-shown + &_label {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(4px);
+    &::-internal-autofill-selected {
+      background: green;
+    }
   }
   &_btn {
     width: 200px;

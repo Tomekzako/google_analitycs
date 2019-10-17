@@ -171,6 +171,41 @@ body {
     padding: 15px 25px 10px 0;
     outline: 0px;
     background: #0b0a0a; }
+    .form_input-box {
+      -webkit-box-flex: 1;
+      position: relative;
+      flex-grow: 1;
+      flex-shrink: 1;
+      display: flex; }
+      .form_input-box::before {
+        content: attr(data-placeholder);
+        transform: translate3d(25px, -50%, 0px);
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        pointer-events: none;
+        transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s, top 250ms ease 0s, font-size 250ms ease 0s; }
+    .form_input-active {
+      -webkit-box-flex: 1;
+      position: relative;
+      flex-grow: 1;
+      flex-shrink: 1;
+      display: flex; }
+      .form_input-active::before {
+        content: attr(data-placeholder) !important;
+        position: absolute !important;
+        left: 0px !important;
+        display: block !important;
+        font-weight: 600 !important;
+        pointer-events: none !important;
+        transform: translate3d(25px, -50%, 0px) !important;
+        top: 0px !important;
+        font-size: 12px !important;
+        color: #cccccc !important;
+        transition: color 250ms ease 0s, -ms-transform 250ms ease 0s, -webkit-transform 250ms ease 0s, transform 250ms ease 0s, top 250ms ease 0s, font-size 250ms ease 0s !important; }
     @media only screen and (max-width: 969px) {
       .form_input {
         font-size: 16px; } }
@@ -192,17 +227,8 @@ body {
       border-bottom: 1px solid #fff; }
     .form_input::-webkit-input-placeholder {
       color: #fff; }
-  .form_label {
-    font-size: 16px;
-    margin-left: 5px;
-    position: absolute;
-    top: -10px;
-    color: #cccccc;
-    transition: all 0.3s; }
-  .form_input:placeholder-shown + .form_label {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(4px); }
+    .form_input::-internal-autofill-selected {
+      background: green; }
   .form_btn {
     width: 200px;
     font-family: "Source Sans Pro";
